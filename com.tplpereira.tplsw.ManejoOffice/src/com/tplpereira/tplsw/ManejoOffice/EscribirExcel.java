@@ -25,7 +25,6 @@ public class EscribirExcel {
 			workbook.write(fOutputStream);
 			fOutputStream.close();
 			System.out.println("Se creo el archivo con exito!!!");
-			System.out.println("Fin.");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
