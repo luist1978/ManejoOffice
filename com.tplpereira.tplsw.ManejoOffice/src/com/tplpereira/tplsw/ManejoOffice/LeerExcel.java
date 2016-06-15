@@ -70,7 +70,7 @@ public class LeerExcel {
 				fInputStream.close();
 				System.out.println("Tamaño = " + genericos.size());
 			} else {
-				System.out.println("El archivo no pudo ser abierto.");
+				System.out.println("El archivo no pudo ser abierto. Lastima");
 			}
 		} catch (Exception e) {
 			// TODO: handle exception
